@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-28T22:05:27 IST" name="Default suite" finished-at="2023-02-28T22:06:01 IST" duration-ms="34194">
+    <groups>
+    </groups>
+    <test started-at="2023-02-28T22:05:27 IST" name="Default test" finished-at="2023-02-28T22:06:01 IST" duration-ms="34194">
+      <class name="saucedemoTest.SauceTest">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:saucedemoTest.SauceTest@25084a1e]" started-at="2023-02-28T22:05:27 IST" name="beforeMethod" finished-at="2023-02-28T22:05:27 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="selectMultiProduct()[pri:0, instance:saucedemoTest.SauceTest@25084a1e]" started-at="2023-02-28T22:05:27 IST" name="selectMultiProduct" finished-at="2023-02-28T22:05:37 IST" duration-ms="10401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectMultiProduct -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:saucedemoTest.SauceTest@25084a1e]" started-at="2023-02-28T22:05:37 IST" name="afterMethod" finished-at="2023-02-28T22:05:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="validateValidLogin()[pri:0, instance:saucedemoTest.SauceTest@25084a1e]" started-at="2023-02-28T22:05:37 IST" name="validateValidLogin" finished-at="2023-02-28T22:05:41 IST" duration-ms="4103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateValidLogin -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:saucedemoTest.SauceTest@25084a1e]" started-at="2023-02-28T22:05:37 IST" name="beforeMethod" finished-at="2023-02-28T22:05:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:saucedemoTest.SauceTest@25084a1e]" started-at="2023-02-28T22:05:41 IST" name="afterMethod" finished-at="2023-02-28T22:05:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:saucedemoTest.SauceTest@25084a1e]" started-at="2023-02-28T22:05:41 IST" name="beforeMethod" finished-at="2023-02-28T22:05:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="validInvalidLogin()[pri:1, instance:saucedemoTest.SauceTest@25084a1e]" started-at="2023-02-28T22:05:41 IST" name="validInvalidLogin" finished-at="2023-02-28T22:05:57 IST" duration-ms="15202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validInvalidLogin -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:saucedemoTest.SauceTest@25084a1e]" started-at="2023-02-28T22:05:57 IST" name="afterMethod" finished-at="2023-02-28T22:05:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:saucedemoTest.SauceTest@25084a1e]" started-at="2023-02-28T22:05:57 IST" name="beforeMethod" finished-at="2023-02-28T22:05:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="selectSingleProduct()[pri:2, instance:saucedemoTest.SauceTest@25084a1e]" started-at="2023-02-28T22:05:57 IST" name="selectSingleProduct" finished-at="2023-02-28T22:06:01 IST" duration-ms="4440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectSingleProduct -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:saucedemoTest.SauceTest@25084a1e]" started-at="2023-02-28T22:06:01 IST" name="afterMethod" finished-at="2023-02-28T22:06:01 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- saucedemoTest.SauceTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
