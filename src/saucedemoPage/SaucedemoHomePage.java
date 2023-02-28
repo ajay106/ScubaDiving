@@ -1,7 +1,6 @@
 package saucedemoPage;
 
 import static org.testng.Assert.assertEquals;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -33,7 +32,6 @@ public class SaucedemoHomePage {
 	public SaucedemoHomePage(WebDriver driver) {
 		this.driver = driver;
 	}
-
 	public void singleProductSelectPage() {
 		boolean appLogoStatus = driver.findElement(appLogo).isDisplayed();
 
@@ -44,7 +42,6 @@ public class SaucedemoHomePage {
 		String Cartvalue = driver.findElement(cart).getText();
 		System.out.println("Added" + Cartvalue + "product in to the cart");
 	}
-
 	public void multiProductSelectPage() throws InterruptedException {
 		boolean appLogoStatus = driver.findElement(appLogo).isDisplayed();
 		if (appLogoStatus) {
@@ -60,14 +57,12 @@ public class SaucedemoHomePage {
 		String Cartvalue = driver.findElement(cart).getText();
 		System.out.println("Added" + Cartvalue + "product in to the cart");
 	}
-
 	public void yourCartPage() {
 		driver.findElement(cart).click();
 		String yourCartTitle = driver.findElement(yourCart).getText();
 		assertEquals(actualTextYourCart, yourCartTitle, "You cart page opened");
 		driver.findElement(checkOut).click();
 	}
-
 	public void checkOutPage() {
 		String checkOutTitle = driver.findElement(checkOutPage).getText();
 		if (actualCheckOut.equalsIgnoreCase(checkOutTitle)) {
@@ -78,7 +73,6 @@ public class SaucedemoHomePage {
 		driver.findElement(zipCode).sendKeys("411033");
 		driver.findElement(continueBtn).click();
 	}
-
 	public void checkOutOverviewPage() {
 		String overViewTitle = driver.findElement(overviewPageTitle).getText();
 		if (actualOverview.equalsIgnoreCase(overViewTitle)) {
@@ -86,7 +80,6 @@ public class SaucedemoHomePage {
 		}
 		driver.findElement(finishBtn).click();
 	}
-
 	public void checkOutComplete() {
 		String completeCheckOutTitle = driver.findElement(checkOutCmpltTitle).getText();
 		if (actualCheckOutComplete.equalsIgnoreCase(completeCheckOutTitle)) {

@@ -1,10 +1,8 @@
 package saucedemoTest;
 
 import org.testng.annotations.Test;
-
 import saucedemoPage.SaucedemoHomePage;
 import saucedemoPage.SaucedemoLoginPage;
-
 import org.testng.annotations.BeforeMethod;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -19,7 +17,6 @@ public class SauceTest {
 		login.Saucedemologin();
 		driver.quit();
 	}
-
 	@Test(priority = 1)
 	public void validInvalidLogin() throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\ajays\\Software\\chromedriver.exe");
@@ -28,7 +25,6 @@ public class SauceTest {
 		login.SaucedemologinWithInvalid();
 		driver.quit();
 	}
-
 	@Test(priority = 2)
 	public void selectSingleProduct() {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\ajays\\Software\\chromedriver.exe");
@@ -57,12 +53,10 @@ public class SauceTest {
 		homePage.checkOutComplete();
 		driver.quit();
 	}
-
 	@BeforeMethod
 	public void beforeMethod() {
 		System.out.println("TestNg test has started");
 	}
-
 	@AfterMethod
 	public void afterMethod() {
 		System.out.println("TestNg test has stopped");

@@ -15,7 +15,6 @@ public class SaucedemoLoginPage {
 	public  SaucedemoLoginPage(WebDriver driver) 
 	{
 		this.driver=driver;
-		
 	}
 	public void Saucedemologin() {
 		driver.get("https://www.saucedemo.com/");
@@ -24,7 +23,6 @@ public class SaucedemoLoginPage {
 		driver.findElement(uButton).click();
 	}
 	public void SaucedemologinWithInvalid() throws InterruptedException {
-		
 		driver.get("https://www.saucedemo.com/"); 
 		Thread.sleep(3000);
 		driver.findElement(uName).sendKeys("Inv");
@@ -38,8 +36,6 @@ public class SaucedemoLoginPage {
 		{
 			System.out.println("Test Case Passed Actual error message : " + gettingErrorMsg);
 		}
-		
-		
 	}
 
 }
