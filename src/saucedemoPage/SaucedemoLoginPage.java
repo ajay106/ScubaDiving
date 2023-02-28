@@ -12,8 +12,6 @@ public class SaucedemoLoginPage {
 	String usrPass = "secret_sauce";
 	By errMsg=By.xpath("//*[@class='error-message-container error']");
 	String actErrorMsg="Epic sadface: Username and password do not match any user in this service";
-	
-	
 	public  SaucedemoLoginPage(WebDriver driver) 
 	{
 		this.driver=driver;
